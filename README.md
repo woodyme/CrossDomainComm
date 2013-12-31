@@ -1,0 +1,1 @@
+This is a project to develop cross domain communication methods between Arduino, Mathematica, Processing, Unity3D, Flash, etc.
