@@ -1,0 +1,527 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     14983,        517]
+NotebookOptionsPosition[     14187,        485]
+NotebookOutlinePosition[     14529,        500]
+CellTagsIndexPosition[     14486,        497]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<NETLink`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.5975375209084015`*^9, 3.5975375293438845`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["InstallNET"], "Input",
+ CellChangeTimes->{{3.5975375328130827`*^9, 3.5975375348922014`*^9}}],
+
+Cell[BoxData["InstallNET"], "Output",
+ CellChangeTimes->{3.5975375353032255`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NETTypeInfo", "[", "\"\<System.IO.Ports.SerialPort\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.597537557025468*^9, 3.597537574712479*^9}}],
+
+Cell[BoxData[GridBox[{
+   {Cell[BoxData[
+     RowBox[{
+      RowBox[{"\[FilledCircle]", " "}], 
+      StyleBox["Type",
+       FontSize->18,
+       FontWeight->"Bold",
+       FontSlant->"Italic"]}]]]},
+   {
+    RowBox[{
+     RowBox[{"class", " "}], 
+     StyleBox["\<\"System.IO.Ports.SerialPort\"\>",
+      FontWeight->"Bold"]}]},
+   {GridBox[{
+      {
+       RowBox[{"Inheritance", ":"}]},
+      {
+       RowBox[{"   ", "   ", "\<\"System.Object\"\>"}]},
+      {
+       RowBox[{"   ", "   ", "   ", "\<\"System.MarshalByRefObject\"\>"}]},
+      {
+       RowBox[{
+       "   ", "   ", "   ", 
+        "   ", "\<\"System.ComponentModel.Component\"\>"}]},
+      {
+       RowBox[{"   ", "   ", "   ", "   ", "   ", 
+        StyleBox["\<\"System.IO.Ports.SerialPort\"\>",
+         FontWeight->"Bold"]}]}
+     },
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}}]},
+   {
+    RowBox[{
+     RowBox[{"Interfaces", " ", 
+      RowBox[{
+      "Implemented", ":", " ", "\<\"System.ComponentModel.IComponent\"\>"}]}],
+      ",", " ", "\<\"IDisposable\"\>"}]},
+   {"\<\"Assembly-Qualified Name: System.IO.Ports.SerialPort, System, \
+Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"\>"},
+   {"\<\"Assembly Location: C:\\\\Windows\\\\assembly\\\\GAC_MSIL\\\\System\\\
+\\2.0.0.0__b77a5c561934e089\\\\System.dll\"\>"},
+   {""},
+   {Cell[BoxData[
+     RowBox[{
+      RowBox[{"\[FilledCircle]", " "}], 
+      StyleBox["Constructors",
+       FontSize->18,
+       FontWeight->"Bold",
+       FontSlant->"Italic"]}]]]},
+   {
+    RowBox[{
+     StyleBox["SerialPort",
+      FontWeight->
+       "Bold"], "\<\"(System.ComponentModel.IContainer container)\"\>"}]},
+   {
+    RowBox[{
+     StyleBox["SerialPort",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{
+     StyleBox["SerialPort",
+      FontWeight->"Bold"], "\<\"(string portName)\"\>"}]},
+   {
+    RowBox[{
+     StyleBox["SerialPort",
+      FontWeight->"Bold"], "\<\"(string portName, int baudRate)\"\>"}]},
+   {
+    RowBox[{
+     StyleBox["SerialPort",
+      FontWeight->
+       "Bold"], "\<\"(string portName, int baudRate, System.IO.Ports.Parity \
+parity)\"\>"}]},
+   {
+    RowBox[{
+     StyleBox["SerialPort",
+      FontWeight->
+       "Bold"], "\<\"(string portName, int baudRate, System.IO.Ports.Parity \
+parity, int dataBits)\"\>"}]},
+   {
+    RowBox[{
+     StyleBox["SerialPort",
+      FontWeight->
+       "Bold"], "\<\"(string portName, int baudRate, System.IO.Ports.Parity \
+parity, int dataBits, System.IO.Ports.StopBits stopBits)\"\>"}]},
+   {""},
+   {Cell[BoxData[
+     RowBox[{
+      RowBox[{"\[FilledCircle]", " "}], 
+      StyleBox["Fields",
+       FontSize->18,
+       FontWeight->"Bold",
+       FontSlant->"Italic"]}]]]},
+   {
+    RowBox[{"const", " ", "\<\"int\"\>", " ", 
+     StyleBox["InfiniteTimeout",
+      FontWeight->"Bold"]}]},
+   {""},
+   {Cell[BoxData[
+     RowBox[{
+      RowBox[{"\[FilledCircle]", " "}], 
+      StyleBox["Properties",
+       FontSize->18,
+       FontWeight->"Bold",
+       FontSlant->"Italic"]}]]]},
+   {
+    RowBox[{"\<\"System.IO.Stream\"\>", " ", 
+     StyleBox["BaseStream",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["BaudRate",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["BreakState",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["BytesToRead",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["BytesToWrite",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["CDHolding",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"System.ComponentModel.IContainer\"\>", " ", 
+     StyleBox["Container",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["CtsHolding",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["DataBits",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["DiscardNull",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["DsrHolding",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["DtrEnable",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"System.Text.Encoding\"\>", " ", 
+     StyleBox["Encoding",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"System.IO.Ports.Handshake\"\>", " ", 
+     StyleBox["Handshake",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["IsOpen",
+      FontWeight->"Bold"], 
+     RowBox[{"  ", 
+      RowBox[{"[", 
+       RowBox[{"read", " ", "only"}], "]"}]}]}]},
+   {
+    RowBox[{"\<\"string\"\>", " ", 
+     StyleBox["NewLine",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"System.IO.Ports.Parity\"\>", " ", 
+     StyleBox["Parity",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"byte\"\>", " ", 
+     StyleBox["ParityReplace",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"string\"\>", " ", 
+     StyleBox["PortName",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["ReadBufferSize",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["ReadTimeout",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["ReceivedBytesThreshold",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"bool\"\>", " ", 
+     StyleBox["RtsEnable",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"virtual", " ", "\<\"System.ComponentModel.ISite\"\>", " ", 
+     StyleBox["Site",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"System.IO.Ports.StopBits\"\>", " ", 
+     StyleBox["StopBits",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["WriteBufferSize",
+      FontWeight->"Bold"]}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["WriteTimeout",
+      FontWeight->"Bold"]}]},
+   {""},
+   {Cell[BoxData[
+     RowBox[{
+      RowBox[{"\[FilledCircle]", " "}], 
+      StyleBox["Methods",
+       FontSize->18,
+       FontWeight->"Bold",
+       FontSlant->"Italic"]}]]]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["Close",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"virtual", " ", "\<\"System.Runtime.Remoting.ObjRef\"\>", " ", 
+     StyleBox["CreateObjRef",
+      FontWeight->"Bold"], "\<\"(Type requestedType)\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["DiscardInBuffer",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["DiscardOutBuffer",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["Dispose",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"virtual", " ", "\<\"bool\"\>", " ", 
+     StyleBox["Equals",
+      FontWeight->"Bold"], "\<\"(object obj)\"\>"}]},
+   {
+    RowBox[{"static", " ", "\<\"bool\"\>", " ", 
+     StyleBox["Equals",
+      FontWeight->"Bold"], "\<\"(object objA, object objB)\"\>"}]},
+   {
+    RowBox[{"virtual", " ", "\<\"int\"\>", " ", 
+     StyleBox["GetHashCode",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"object\"\>", " ", 
+     StyleBox["GetLifetimeService",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"static", " ", "\<\"string[]\"\>", " ", 
+     StyleBox["GetPortNames",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"Type\"\>", " ", 
+     StyleBox["GetType",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"virtual", " ", "\<\"object\"\>", " ", 
+     StyleBox["InitializeLifetimeService",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["Open",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["Read",
+      FontWeight->"Bold"], "\<\"(byte[] buffer, int offset, int count)\"\>"}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["Read",
+      FontWeight->"Bold"], "\<\"(char[] buffer, int offset, int count)\"\>"}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["ReadByte",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"int\"\>", " ", 
+     StyleBox["ReadChar",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"string\"\>", " ", 
+     StyleBox["ReadExisting",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"string\"\>", " ", 
+     StyleBox["ReadLine",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"string\"\>", " ", 
+     StyleBox["ReadTo",
+      FontWeight->"Bold"], "\<\"(string value)\"\>"}]},
+   {
+    RowBox[{"static", " ", "\<\"bool\"\>", " ", 
+     StyleBox["ReferenceEquals",
+      FontWeight->"Bold"], "\<\"(object objA, object objB)\"\>"}]},
+   {
+    RowBox[{"virtual", " ", "\<\"string\"\>", " ", 
+     StyleBox["ToString",
+      FontWeight->"Bold"], "\<\"()\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["Write",
+      FontWeight->"Bold"], "\<\"(string text)\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["Write",
+      FontWeight->"Bold"], "\<\"(char[] buffer, int offset, int count)\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["Write",
+      FontWeight->"Bold"], "\<\"(byte[] buffer, int offset, int count)\"\>"}]},
+   {
+    RowBox[{"\<\"void\"\>", " ", 
+     StyleBox["WriteLine",
+      FontWeight->"Bold"], "\<\"(string text)\"\>"}]},
+   {""},
+   {Cell[BoxData[
+     RowBox[{
+      RowBox[{"\[FilledCircle]", " "}], 
+      StyleBox["Events",
+       FontSize->18,
+       FontWeight->"Bold",
+       FontSlant->"Italic"]}]]]},
+   {
+    RowBox[{
+    "event", " ", "\<\"System.IO.Ports.SerialDataReceivedEventHandler\"\>", 
+     " ", 
+     StyleBox["DataReceived",
+      FontWeight->
+       "Bold"], "\<\"  [arguments to delegate: \"\>", "\<\"(object sender, \
+System.IO.Ports.SerialDataReceivedEventArgs e)\"\>", "\<\"]\"\>"}]},
+   {
+    RowBox[{"event", " ", "\<\"EventHandler\"\>", " ", 
+     StyleBox["Disposed",
+      FontWeight->
+       "Bold"], "\<\"  [arguments to delegate: \"\>", "\<\"(object sender, \
+EventArgs e)\"\>", "\<\"]\"\>"}]},
+   {
+    RowBox[{
+    "event", " ", "\<\"System.IO.Ports.SerialErrorReceivedEventHandler\"\>", 
+     " ", 
+     StyleBox["ErrorReceived",
+      FontWeight->
+       "Bold"], "\<\"  [arguments to delegate: \"\>", "\<\"(object sender, \
+System.IO.Ports.SerialErrorReceivedEventArgs e)\"\>", "\<\"]\"\>"}]},
+   {
+    RowBox[{
+    "event", " ", "\<\"System.IO.Ports.SerialPinChangedEventHandler\"\>", " ", 
+     StyleBox["PinChanged",
+      FontWeight->
+       "Bold"], "\<\"  [arguments to delegate: \"\>", "\<\"(object sender, \
+System.IO.Ports.SerialPinChangedEventArgs e)\"\>", "\<\"]\"\>"}]}
+  },
+  GridBoxAlignment->{
+   "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+    "RowsIndexed" -> {}},
+  GridBoxItemSize->{
+   "Columns" -> {{All}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.2}}, 
+    "RowsIndexed" -> {}}]], "Output",
+ CellChangeTimes->{3.597537579643761*^9},
+ AutoSpacing->False]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ser", "=", 
+  RowBox[{"NETNew", "[", 
+   RowBox[{"\"\<System.IO.Ports.SerialPort\>\"", ",", "\"\<COM4\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.5975376084594097`*^9, 3.5975376362229977`*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\[LeftGuillemet]", 
+   RowBox[{"NETObject", "[", 
+    RowBox[{"System", ".", "IO", ".", "Ports", ".", "SerialPort"}], "]"}], 
+   "\[RightGuillemet]"}],
+  NETLink`Objects`NETObject$192170795466753]], "Output",
+ CellChangeTimes->{3.597537641990327*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"ser", "@", 
+  RowBox[{"Open", "[", "]"}]}]], "Input",
+ CellChangeTimes->{{3.597537648382693*^9, 3.5975376520609035`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ser", "@", 
+  RowBox[{"Write", "[", "From", "]"}]}]], "Input",
+ CellChangeTimes->{{3.5975408226622515`*^9, 3.5975408277155404`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{
+  "$Path", ",", 
+   "\"\<F:\\\\Program Files\\\\Wolfram \
+Research\\\\Mathematica\\\\9.0\\\\AddOns\\\\Applications\\\\\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.5975410693143587`*^9, 3.5975411012851877`*^9}}],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{3.5975411020272303`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Install", "[", "\"\<SerialIO\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.597570928454204*^9, 3.5975709367966814`*^9}}]
+},
+WindowSize->{667, 690},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"9.0 for Microsoft Windows (32-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 143, 2, 31, "Input"],
+Cell[CellGroupData[{
+Cell[725, 26, 106, 1, 31, "Input"],
+Cell[834, 29, 81, 1, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[952, 35, 166, 3, 31, "Input"],
+Cell[1121, 40, 11653, 394, 1474, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12811, 439, 226, 5, 31, "Input"],
+Cell[13040, 446, 295, 7, 31, "Output"]
+}, Open  ]],
+Cell[13350, 456, 145, 3, 31, "Input"],
+Cell[13498, 461, 156, 3, 31, "Input"],
+Cell[CellGroupData[{
+Cell[13679, 468, 267, 7, 72, "Input"],
+Cell[13949, 477, 76, 1, 31, "Output"]
+}, Open  ]],
+Cell[14040, 481, 143, 2, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
