@@ -1,0 +1,167 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4748,        157]
+NotebookOptionsPosition[      3857,        120]
+NotebookOutlinePosition[      4201,        135]
+CellTagsIndexPosition[      4158,        132]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"link", "=", 
+  RowBox[{"LinkCreate", "[", 
+   RowBox[{"\"\<5334\>\"", ",", 
+    RowBox[{"LinkProtocol", "\[Rule]", "\"\<TCPIP\>\""}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.5976030142223577`*^9, 3.5976030168045053`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"LinkObject", "[", 
+  RowBox[{"\<\"5334@192.168.1.105,62996@192.168.1.105\"\>", ",", "73", ",", 
+   "4"}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.597603018092579*^9, 3.5976031150991273`*^9, 3.597603219262085*^9, 
+   3.5976034267219515`*^9, {3.5976035143339624`*^9, 3.5976035295248313`*^9}, 
+   3.5976037577608857`*^9, {3.597603883953103*^9, 3.5976039091565447`*^9}, {
+   3.5976039520149965`*^9, 3.5976039725481706`*^9}, {3.597604017783758*^9, 
+   3.5976040461853824`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LinkReadyQ", "[", "link", "]"}]], "Input",
+ CellChangeTimes->{{3.5976033982313213`*^9, 3.5976034046146865`*^9}, {
+  3.597603451818386*^9, 3.5976034524834247`*^9}}],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{{3.5976034298081274`*^9, 3.5976034532534685`*^9}, 
+   3.597603533387052*^9, 3.597603572080265*^9, 3.5976037809272103`*^9, {
+   3.5976038918615556`*^9, 3.5976039117966957`*^9}, {3.597603944598572*^9, 
+   3.597604047752472*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Link", "=", 
+  RowBox[{"LinkConnect", "[", 
+   RowBox[{"\"\<5334\>\"", ",", 
+    RowBox[{"LinkProtocol", "\[Rule]", "\"\<TCPIP\>\""}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.5976036875638704`*^9, 3.59760371307833*^9}, {
+  3.5976037958500643`*^9, 3.5976038020134163`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"LinkObject", "[", 
+  RowBox[{"\<\"5334@192.168.1.105\"\>", ",", "139", ",", "5"}], 
+  "]"}]], "Output",
+ CellChangeTimes->{
+  3.5976037164125204`*^9, 3.597603803229486*^9, {3.597603897622885*^9, 
+   3.597603919000108*^9}, 3.597603976277384*^9, 3.597604052135723*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LinkRead", "[", "link", "]"}]], "Input",
+ CellChangeTimes->{{3.597604058171068*^9, 3.5976040621192937`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"LinkConnect", "::", "linkc"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Unable to connect to \
+\[NoBreak]\\!\\(LinkObject[\\(\\(\\\"5334@192.168.1.105,62996@192.168.1.105\\\
+\", 73, 4\\)\\)]\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/LinkConnect/linkc\\\", ButtonNote -> \
+\\\"LinkConnect::linkc\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.597604669134013*^9}],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.597604669138013*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LinkWrite", "[", 
+  RowBox[{"link", ",", "3"}], "]"}]], "Input",
+ CellChangeTimes->{{3.5976037259910684`*^9, 3.597603732242426*^9}}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{
+  3.597603746055216*^9, {3.597603879020821*^9, 3.597603907254436*^9}, 
+   3.5976040078411894`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LinkRead", "[", "Link", "]"}]], "Input",
+ CellChangeTimes->{{3.5976038329381857`*^9, 3.5976038435857944`*^9}}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.597603941527396*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 492},
+WindowMargins->{{Automatic, 22}, {Automatic, 67}},
+FrontEndVersion->"9.0 for Microsoft Windows (32-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 248, 5, 31, "Input"],
+Cell[830, 29, 498, 9, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1365, 43, 187, 3, 31, "Input"],
+Cell[1555, 48, 278, 4, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1870, 57, 299, 6, 31, "Input"],
+Cell[2172, 65, 290, 6, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2499, 76, 132, 2, 31, "Input"],
+Cell[2634, 80, 527, 11, 24, "Message"],
+Cell[3164, 93, 76, 1, 63, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3277, 99, 156, 3, 31, "Input"],
+Cell[3436, 104, 154, 3, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3627, 112, 134, 2, 31, "Input"],
+Cell[3764, 116, 77, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
