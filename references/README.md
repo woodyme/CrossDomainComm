@@ -24,3 +24,5 @@ Arduino interface with Mathematica: http://playground.arduino.cc/Interfacing/Mat
 MacOSX: http://williamjturkel.net/2011/12/25/connecting-arduino-to-mathematica-on-mac-os-x-with-serialio/
 SerialIO download: http://library.wolfram.com/infocenter/MathSource/5726/#downloads
 
+## Flash and Arduino
+Use Flash to manipulate Arduino: http://www.instructables.com/id/Integrating-your-Arduino-With-Flash-and-Actionscri/#step0
