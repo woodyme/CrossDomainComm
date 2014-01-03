@@ -16,18 +16,20 @@ void setup()
 }
 
 void draw(){
-  background(255, value, 0);
-  //println(myClient.read());
+  println(myClient.read());
+  println(second());
+  //delay(1000);
 }
 
 void mouseDragged()
 {
+  background(255, value, 0);
   //arduino.digitalWrite(ledPin, Arduino.HIGH);
   myClient.write(1);
   if (value > 200){
   value = 0;}
   else {  value = value + 20;
-}
+  }
   //delay(500);
   //arduino.digitalWrite(ledPin, Arduino.LOW);
   //myClient.write("try{firmata.digitalWrite(1101, LOW)}");
