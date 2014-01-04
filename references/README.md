@@ -26,3 +26,6 @@ SerialIO download: http://library.wolfram.com/infocenter/MathSource/5726/#downlo
 
 ## Flash and Arduino
 Use Flash to manipulate Arduino: http://www.instructables.com/id/Integrating-your-Arduino-With-Flash-and-Actionscri/#step0
+
+## Java Serial Port
+CommPortIdentifier downloads: http://docs.oracle.com/cd/E17802_01/products/products/javacomm/reference/api/javax/comm/CommPortIdentifier.html

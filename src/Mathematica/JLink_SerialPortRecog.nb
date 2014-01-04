@@ -1,0 +1,103 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      2786,         93]
+NotebookOptionsPosition[      2269,         71]
+NotebookOutlinePosition[      2634,         87]
+CellTagsIndexPosition[      2591,         84]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "JLink`"}]], "Input",
+ CellChangeTimes->{{3.597743730958502*^9, 3.5977437344327006`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<JLink`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.5977441056769342`*^9, 3.597744125126047*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"InstallJava", "[", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.597743743112197*^9, 3.597743748182487*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "LoadJavaClass", "[", "\"\<javax.comm.CommPortIdentifier\>\"", "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.5977437531367702`*^9, 3.5977437695927114`*^9}, {
+  3.597743924735585*^9, 3.5977439254396257`*^9}, {3.5977439852490463`*^9, 
+  3.597744009897456*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"com4", "=", 
+  RowBox[{
+  "CommPortIdentifier`getPortIdentifier", "[", "\"\<COM4\>\"", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.5977487386219234`*^9, 3.597748794614126*^9}, 
+   3.597835679953899*^9, 3.5978360208803988`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Java", "::", "excptn"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"A Java exception occurred: \
+\[NoBreak]\\!\\(\\\"javax.comm.NoSuchPortException\\\\n\\\\tat \
+javax.comm.CommPortIdentifier.getPortIdentifier(CommPortIdentifier.java:105)\\\
+\"\\)\[NoBreak].\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{{3.597748763129326*^9, 3.5977487911759295`*^9}, 
+   3.597829605966487*^9, 3.597835680987958*^9, {3.597836017940231*^9, 
+   3.5978360216274414`*^9}}],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{{3.597748763331337*^9, 3.59774879117793*^9}, 
+   3.5978296061404967`*^9, 3.59783568101396*^9, {3.5978360179422307`*^9, 
+   3.5978360216294413`*^9}}]
+}, Open  ]]
+},
+WindowSize->{707, 513},
+WindowMargins->{{28, Automatic}, {Automatic, 44}},
+ShowSelection->True,
+FrontEndVersion->"9.0 for Microsoft Windows (32-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 118, 2, 31, "Input"],
+Cell[678, 24, 139, 2, 31, "Input"],
+Cell[820, 28, 143, 3, 31, "Input"],
+Cell[966, 33, 298, 7, 31, "Input"],
+Cell[CellGroupData[{
+Cell[1289, 44, 251, 6, 31, "Input"],
+Cell[1543, 52, 505, 11, 45, "Message"],
+Cell[2051, 65, 202, 3, 63, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

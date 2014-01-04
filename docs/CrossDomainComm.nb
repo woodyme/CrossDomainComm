@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     80302,       2059]
-NotebookOptionsPosition[     74721,       1881]
-NotebookOutlinePosition[     75199,       1899]
-CellTagsIndexPosition[     75156,       1896]
+NotebookDataLength[     91519,       2340]
+NotebookOptionsPosition[     85035,       2133]
+NotebookOutlinePosition[     85513,       2151]
+CellTagsIndexPosition[     85470,       2148]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1708,6 +1708,258 @@ Cell[TextData[{
  ".",
  
  CounterBox["Section"],
+ ". \:4f7f\:7528",
+ StyleBox["Serproxy",
+  FontFamily->"Cambria"],
+ "\:4ee3\:7406\:7f51\:7edc\:7aef\:53e3\:5728Processing\:4e0e",
+ StyleBox["Arduino\:4e4b\:95f4",
+  FontFamily->"Cambria"],
+ "\:901a\:4fe1"
+}], "Section",
+ CellChangeTimes->{{3.5976359319677153`*^9, 3.5976359326317534`*^9}, {
+   3.5976363498106146`*^9, 3.597636352824787*^9}, {3.597639819422065*^9, 
+   3.5976398240113277`*^9}, 3.5976411185533714`*^9, {3.597734122139909*^9, 
+   3.5977341269781857`*^9}}],
+
+Cell["\<\
+\:5229\:7528Serproxy\:4ee3\:7406\:901a\:4fe1\:65f6\:ff0cProcessing\:4f5c\:4e3a\
+\:5ba2\:6237\:ff08Client\:ff09\:5c06\:547d\:4ee4\:8bed\:53e5\:901a\:8fc7\:7f51\
+\:7edc\:7aef\:53e3\:53d1\:9001\:7ed9Serproxy\:ff0c\:800c\:540e\:7531\:4e8b\
+\:5148\:5728\:914d\:7f6e\:6587\:4ef6\:4e2d\:5b9a\:4e49\:597d\:7684\:4e32\:53e3\
+\:53d1\:9001\:7ed9Arduino\:3002\:53e6\:4e00\:4e2a\:65b9\:5411\:4e0a\:ff0c\
+Serproxy\:5c06\:4e32\:53e3\:8bfb\:53d6\:7684\:6570\:636e\:ff0c\:901a\:8fc7\
+\:4ee3\:7406\:7f51\:7edc\:7aef\:53e3\:53d1\:9001\:51fa\:6765\:ff0c\:7531\
+Processing\:7a0b\:5e8f\:8fdb\:884c\:8bfb\:53d6\:3002\
+\>", "Text",
+ CellChangeTimes->{{3.59773414541724*^9, 3.59773418248036*^9}, {
+  3.597734219614484*^9, 3.5977343320919175`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ 
+ CounterBox["BookChapterNumber"],
+ ".",
+ 
+ CounterBox["Section"],
+ ".",
+ 
+ CounterBox["Subsection"],
+ ". Processing\:53d1\:9001\:6570\:636e\:7ed9Arduino"
+}], "Subsection",
+ CellChangeTimes->{{3.597635272654005*^9, 3.5976352760722003`*^9}, {
+   3.597636800031366*^9, 3.597636800896415*^9}, 3.597641153657379*^9, {
+   3.597734347295787*^9, 3.597734353096119*^9}}],
+
+Cell[TextData[{
+ "\:6211\:4eec\:9996\:5148\:901a\:8fc7\:4e00\:4e2a\:7b80\:5355\:7684\:63a7\
+\:5236\:7a0b\:5e8f\:4f53\:9a8cProcessing\:901a\:8fc7\:7f51\:7edc\:4ee3\:7406\
+\:7aef\:53e3\:63a7\:5236Arduino\:7684\:8fc7\:7a0b\:3002\:8fd9\:4e2a\:6837\
+\:4f8b\:7a0b\:5e8f\:53ef\:4ee5\:5b9e\:73b0\:5728Processing\:751f\:6210\:7684\
+\:754c\:9762\:62d6\:52a8\:9f20\:6807\:ff0c\:6765\:63a7\:5236Arduino Leonardo\
+\:4e0a\:7684\:677f\:8f7dLED\:706f\:70b9\:4eae\:3002\:4e3a\:4e86\:987a\:5229\
+\:8fdb\:884c\:901a\:8baf\:ff0c\:6211\:4eec\:9700\:8981\:5728Arduino\:82af\
+\:7247\:548cProcessing\:4e2d\:5206\:522b\:5199\:5165\:76f8\:5e94\:7684\:7a0b\
+\:5e8f\:3002\:5728Arduino\:7aef\:ff0c\:4e3b\:8981\:4f1a\:7528\:5230\:4e32\
+\:53e3\:76f8\:5173\:7684\:547d\:4ee4\:ff08\:53c2\:89c1",
+ ButtonBox["arduino.cc/en/Reference/Serial",
+  BaseStyle->"Hyperlink",
+  ButtonData->{"arduino.cc/en/Reference/Serial", None}],
+ "\:ff09\:3002\:5728Processing\:7aef\:ff0c\:4e3b\:8981\:4f1a\:7528\:5230\:7f51\
+\:7edc\:63a5\:53e3\:76f8\:5173\:7684\:547d\:4ee4\:ff08\:53c2\:89c1",
+ ButtonBox["www.processing.org/reference/libraries/net/Client.html",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+   "www.processing.org/reference/libraries/net/Client.html", None}],
+ "\:ff09\:3002"
+}], "Text",
+ CellChangeTimes->{{3.597734356454311*^9, 3.597734478384285*^9}, {
+  3.5977346671990843`*^9, 3.597734745316552*^9}, {3.597734778908474*^9, 
+  3.597734878968197*^9}, {3.597736173466238*^9, 3.5977361735082407`*^9}}],
+
+Cell["\<\
+\:76f8\:5173\:7a0b\:5e8f\:8bf7\:53c2\:770bledOnClick.pde\:4ee5\:53ca\
+ledOnClick.ino\:7a0b\:5e8f\:3002\
+\>", "Text",
+ CellChangeTimes->{{3.597734356454311*^9, 3.597734478384285*^9}, {
+  3.5977346671990843`*^9, 3.597734745316552*^9}, {3.597734778908474*^9, 
+  3.597734878968197*^9}, {3.597736173466238*^9, 3.5977362348497486`*^9}}],
+
+Cell[TextData[{
+ "\:5728\:8fd9\:4e2aArduino\:6837\:4f8b\:7a0b\:5e8f\:4e2d\:ff0c\:5b9e\:73b0\
+\:4e32\:53e3\:901a\:4fe1\:5bf9LED\:70b9\:4eae\:63a7\:5236\:7684\:5173\:952e\
+\:5728\:4e8e",
+ ButtonBox["Serial.available()\:51fd\:6570",
+  BaseStyle->"Hyperlink",
+  ButtonData->{"arduino.cc/en/Serial/Available", None}],
+ "\:ff0c\:5b83\:53ef\:4ee5\:76d1\:6d4bArduino\:4e0a\:7684\:4e32\:53e3\:901a\
+\:4fe1\:7f13\:5b58\:ff0c\:5373\:5f53\:6709\:6570\:636e\:4ece\:8ba1\:7b97\:673a\
+\:901a\:8fc7\:4e32\:53e3\:53d1\:9001\:5230Arduino\:7684\:65f6\:5019\:ff0c\
+\:6570\:636e\:9996\:5148\:5b58\:50a8\:5728\:7f13\:5b58\:4e2d\:3002Serial.\
+available\:51fd\:6570\:8fd4\:56de\:7684\:6570\:503c\:6b63\:662f\:8fd9\:4e2a\
+\:7f13\:5b58\:4e2d\:53ef\:4ee5\:8bfb\:53d6\:7684\:5b57\:8282\:ff08byte\:ff09\
+\:6570\:91cf\:3002\:5f53\:6570\:91cf\:5927\:4e8e0\:65f6\:ff0c\:8868\:660e\
+\:4e32\:53e3\:6b63\:5728\:53d1\:9001\:6570\:636e\:3002\:901a\:8fc7\:5728\:8ba1\
+\:7b97\:673a\:4e0a\:4e0e\:4e4b\:5bf9\:5e94\:7684Processing\:4e2d\:7f16\:5199\
+\:9f20\:6807\:62d6\:52a8\:5219\:5411\:4e32\:53e3\:53d1\:9001\:6570\:636e\:7684\
+\:51fd\:6570\:ff0c\:6211\:4eec\:5c31\:53ef\:4ee5\:5b9e\:73b0\:9f20\:6807\:5bf9\
+Arduino\:4e0aLED\:7684\:63a7\:5236\:3002"
+}], "Text",
+ CellChangeTimes->{{3.597635258676205*^9, 3.5976353071449776`*^9}, {
+  3.597636807863814*^9, 3.597636809906931*^9}, {3.597639839567217*^9, 
+  3.597639857417238*^9}, {3.5976411770077143`*^9, 3.5976411975338883`*^9}, {
+  3.597736287828779*^9, 3.597736301600567*^9}, {3.597736940809128*^9, 
+  3.5977369767611837`*^9}, {3.5977370156164064`*^9, 3.597737051565462*^9}, {
+  3.5977371003462524`*^9, 3.5977372800815325`*^9}, {3.59773748073901*^9, 
+  3.597737480759011*^9}}],
+
+Cell["\<\
+\:5728Processing\:7a0b\:5e8f\:4e2d\:ff0c\:9996\:5148\:9700\:8981\:5efa\:7acb\
+\:4e00\:4e2a\:7f51\:7edc\:7528\:6237\:ff08client\:ff09\:5e76\:5b9a\:4e49\:5176\
+IP\:5730\:5740\:548c\:7aef\:53e3\:53f7\:3002\:8fd9\:91cc\:9700\:8981\:4e0e\
+Serproxy\:914d\:7f6e\:6587\:4ef6\:4e2d\:5b9a\:4e49\:7684\:53c2\:6570\:4e00\
+\:81f4\:3002\:4e4b\:540e\:ff0cProcessing\:4e2d\:63d0\:4f9b\:4e86client.write\
+\:51fd\:6570\:ff0c\:53ef\:4ee5\:901a\:8fc7\:7f51\:7edc\:7aef\:53e3\:5199\:5165\
+\:6570\:636e\:3002\:901a\:8fc7\:6b64\:65b9\:6cd5\:8fdb\:884c\:901a\:4fe1\:65f6\
+\:ff0c\:9700\:8981\:6ce8\:610f\:6570\:636e\:683c\:5f0f\:7684\:7edf\:4e00\:3002\
+\>", "Text",
+ CellChangeTimes->{{3.597635258676205*^9, 3.5976353071449776`*^9}, {
+   3.597636807863814*^9, 3.597636809906931*^9}, {3.597639839567217*^9, 
+   3.597639857870264*^9}, 3.59764120420627*^9, 3.5977362886798277`*^9, {
+   3.5977372845377874`*^9, 3.5977373533247223`*^9}, {3.597742888673326*^9, 
+   3.5977429660617523`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ 
+ CounterBox["BookChapterNumber"],
+ ".",
+ 
+ CounterBox["Section"],
+ ".",
+ 
+ CounterBox["Subsection"],
+ ". Processing\:8bfb\:53d6Arduino\:6570\:636e"
+}], "Subsection",
+ CellChangeTimes->{{3.597635272654005*^9, 3.5976352760722003`*^9}, {
+   3.597636800031366*^9, 3.597636800896415*^9}, {3.5976395888958797`*^9, 
+   3.5976395899869423`*^9}, 3.5976398738361773`*^9, 3.5976411594387093`*^9, {
+   3.5977430588600597`*^9, 3.5977430625092688`*^9}}],
+
+Cell["\<\
+\:ff08\:5c1a\:5b58\:95ee\:9898\:ff1a\:76ee\:524dArduino\:53d1\:9001string\
+\:ff0cProcessing\:7aef\:901a\:8fc7\:7f51\:7edc\:7aef\:53e3\:8bfb\:53d6\:4ecd\
+\:672anull\:ff09\
+\>", "Text",
+ CellChangeTimes->{{3.597635258676205*^9, 3.5976353071449776`*^9}, {
+  3.597636807863814*^9, 3.597636809906931*^9}, {3.5976395963003035`*^9, 
+  3.597639604648781*^9}, {3.597639883655739*^9, 3.5976398996326528`*^9}, {
+  3.597641222942342*^9, 3.597641307813196*^9}, {3.5977430722078238`*^9, 
+  3.597743120800603*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.597635258676205*^9, 3.5976353071449776`*^9}, {
+  3.597636807863814*^9, 3.597636809906931*^9}, {3.5976395963003035`*^9, 
+  3.597639604648781*^9}, {3.597639883655739*^9, 3.5976398996326528`*^9}, {
+  3.597641222942342*^9, 3.597641307789195*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ 
+ CounterBox["BookChapterNumber"],
+ ".",
+ 
+ CounterBox["Section"],
+ ". \:4f7f\:7528",
+ StyleBox["Serproxy",
+  FontFamily->"Cambria"],
+ "\:4ee3\:7406\:7f51\:7edc\:7aef\:53e3\:5728Mathematica\:4e0e",
+ StyleBox["Arduino\:4e4b\:95f4",
+  FontFamily->"Cambria"],
+ "\:901a\:4fe1"
+}], "Section",
+ CellChangeTimes->{{3.5976359319677153`*^9, 3.5976359326317534`*^9}, {
+   3.5976363498106146`*^9, 3.597636352824787*^9}, {3.597639819422065*^9, 
+   3.5976398240113277`*^9}, 3.5976411185533714`*^9, {3.597734122139909*^9, 
+   3.5977341269781857`*^9}, 3.5977431619849586`*^9}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.59773414541724*^9, 3.59773418248036*^9}, {
+   3.597734219614484*^9, 3.5977343320919175`*^9}, 3.597743182306121*^9}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ 
+ CounterBox["BookChapterNumber"],
+ ".",
+ 
+ CounterBox["Section"],
+ ".",
+ 
+ CounterBox["Subsection"],
+ ". Mathematica\:53d1\:9001\:6570\:636e\:7ed9Arduino"
+}], "Subsection",
+ CellChangeTimes->{{3.597635272654005*^9, 3.5976352760722003`*^9}, {
+   3.597636800031366*^9, 3.597636800896415*^9}, 3.597641153657379*^9, {
+   3.597734347295787*^9, 3.597734353096119*^9}, {3.5977431670362473`*^9, 
+   3.597743170447442*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.597734356454311*^9, 3.597734478384285*^9}, {
+   3.5977346671990843`*^9, 3.597734745316552*^9}, {3.597734778908474*^9, 
+   3.597734878968197*^9}, {3.597736173466238*^9, 3.5977361735082407`*^9}, 
+   3.5977431863913546`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ 
+ CounterBox["BookChapterNumber"],
+ ".",
+ 
+ CounterBox["Section"],
+ ".",
+ 
+ CounterBox["Subsection"],
+ ". Mathematica\:8bfb\:53d6Arduino\:6570\:636e"
+}], "Subsection",
+ CellChangeTimes->{{3.597635272654005*^9, 3.5976352760722003`*^9}, {
+   3.597636800031366*^9, 3.597636800896415*^9}, {3.5976395888958797`*^9, 
+   3.5976395899869423`*^9}, 3.5976398738361773`*^9, 3.5976411594387093`*^9, {
+   3.5977430588600597`*^9, 3.5977430625092688`*^9}, {3.597743174891697*^9, 
+   3.5977431784779015`*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.597635258676205*^9, 3.5976353071449776`*^9}, {
+  3.597636807863814*^9, 3.597636809906931*^9}, {3.5976395963003035`*^9, 
+  3.597639604648781*^9}, {3.597639883655739*^9, 3.5976398996326528`*^9}, {
+  3.597641222942342*^9, 3.597641307813196*^9}, {3.5977430722078238`*^9, 
+  3.597743120800603*^9}, {3.597743196853953*^9, 3.597743198050021*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.597635258676205*^9, 3.5976353071449776`*^9}, {
+  3.597636807863814*^9, 3.597636809906931*^9}, {3.5976395963003035`*^9, 
+  3.597639604648781*^9}, {3.597639883655739*^9, 3.5976398996326528`*^9}, {
+  3.597641222942342*^9, 3.597641307813196*^9}, {3.5977430722078238`*^9, 
+  3.597743120800603*^9}, {3.597743196853953*^9, 3.5977431980430207`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ 
+ CounterBox["BookChapterNumber"],
+ ".",
+ 
+ CounterBox["Section"],
  ". ",
  "Processing",
  StyleBox["\:4e0e",
@@ -1879,8 +2131,8 @@ from CompanyN\[LongDash]A CompanyN Web Resource. URL.\
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1358, 641},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+WindowSize->{1008, 641},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->None,
 FrontEndVersion->"9.0 for Microsoft Windows (32-bit) (January 25, 2013)",
 StyleDefinitions->FrontEnd`FileName[{"Book"}, "Textbook.nb", 
@@ -1904,7 +2156,7 @@ Cell[651, 25, 301, 4, 130, "BookChapterTitle"],
 Cell[955, 31, 276, 5, 23, "Text"],
 Cell[CellGroupData[{
 Cell[1256, 40, 211, 9, 57, "Section"],
-Cell[1470, 51, 632, 9, 23, "Text"]
+Cell[1470, 51, 632, 9, 41, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2139, 65, 298, 11, 57, "Section"],
@@ -1956,19 +2208,19 @@ Cell[39711, 830, 356, 12, 57, "Section"],
 Cell[40070, 844, 779, 16, 23, "Text"],
 Cell[CellGroupData[{
 Cell[40874, 864, 374, 14, 34, "Subsection"],
-Cell[41251, 880, 1105, 22, 23, "Text"],
-Cell[42359, 904, 651, 9, 23, "Text"],
+Cell[41251, 880, 1105, 22, 38, "Text"],
+Cell[42359, 904, 651, 9, 41, "Text"],
 Cell[43013, 915, 783, 13, 35, "Text"],
 Cell[43799, 930, 1113, 22, 23, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[44949, 957, 422, 15, 34, "Subsection"],
 Cell[45374, 974, 528, 15, 23, "Text"],
-Cell[45905, 991, 862, 25, 23, "Text"],
+Cell[45905, 991, 862, 25, 41, "Text"],
 Cell[46770, 1018, 719, 17, 23, "Text"],
 Cell[47492, 1037, 600, 14, 23, "Text"],
-Cell[48095, 1053, 1044, 31, 23, "Text"],
-Cell[49142, 1086, 1290, 32, 23, "Text"],
+Cell[48095, 1053, 1044, 31, 41, "Text"],
+Cell[49142, 1086, 1290, 32, 41, "Text"],
 Cell[50435, 1120, 905, 19, 23, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -1990,12 +2242,12 @@ Cell[56776, 1299, 262, 7, 23, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[57075, 1311, 403, 16, 34, "Subsection"],
-Cell[57481, 1329, 1357, 27, 23, "Text"],
+Cell[57481, 1329, 1357, 27, 41, "Text"],
 Cell[58841, 1358, 921, 21, 23, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[59799, 1384, 428, 16, 34, "Subsection"],
-Cell[60230, 1402, 1183, 29, 23, "Text"]
+Cell[60230, 1402, 1183, 29, 41, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[61450, 1436, 490, 17, 34, "Subsection"],
@@ -2005,7 +2257,7 @@ Cell[62757, 1473, 332, 5, 23, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[63138, 1484, 478, 17, 58, "Section"],
-Cell[63619, 1503, 745, 17, 23, "Text"],
+Cell[63619, 1503, 745, 17, 41, "Text"],
 Cell[CellGroupData[{
 Cell[64389, 1524, 359, 15, 34, "Subsection"],
 Cell[64751, 1541, 574, 14, 23, "Text"],
@@ -2017,47 +2269,76 @@ Cell[66585, 1595, 379, 14, 34, "Subsection"],
 Cell[66967, 1611, 1388, 46, 77, "Text"],
 Cell[68358, 1659, 701, 15, 95, "Text"],
 Cell[69062, 1676, 792, 16, 149, "Text"],
-Cell[69857, 1694, 281, 4, 26, "Text"]
+Cell[69857, 1694, 281, 4, 23, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70187, 1704, 430, 14, 57, "Section"],
-Cell[70620, 1720, 86, 1, 23, "Text"]
+Cell[70187, 1704, 553, 17, 58, "Section"],
+Cell[70743, 1723, 732, 11, 41, "Text"],
+Cell[CellGroupData[{
+Cell[71500, 1738, 379, 13, 34, "Subsection"],
+Cell[71882, 1753, 1461, 24, 59, "Text"],
+Cell[73346, 1779, 340, 6, 23, "Text"],
+Cell[73689, 1787, 1686, 26, 59, "Text"],
+Cell[75378, 1815, 969, 14, 41, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70743, 1726, 60, 0, 279, "ExerciseSection"],
-Cell[CellGroupData[{
-Cell[70828, 1730, 55, 0, 19, "Item1Exercise"],
-Cell[CellGroupData[{
-Cell[70908, 1734, 55, 0, 18, "Item2Exercise"],
-Cell[70966, 1736, 195, 6, 43, "ExerciseEquationNumbered"]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[71222, 1749, 77, 1, 146, "AppendixSectionNumber"],
-Cell[CellGroupData[{
-Cell[71324, 1754, 52, 0, 130, "AppendixSection"],
-Cell[CellGroupData[{
-Cell[71401, 1758, 45, 0, 23, "Appendix"],
-Cell[71449, 1760, 187, 6, 43, "AppendixEquation"]
-}, Open  ]]
+Cell[76384, 1834, 457, 14, 34, "Subsection"],
+Cell[76844, 1850, 509, 9, 23, "Text"],
+Cell[77356, 1861, 281, 4, 23, "Text"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[71697, 1773, 54, 0, 279, "ReferenceSection"],
+Cell[77686, 1871, 578, 17, 58, "Section"],
+Cell[78267, 1890, 154, 2, 23, "Text"],
 Cell[CellGroupData[{
-Cell[71776, 1777, 249, 9, 19, "Reference"],
-Cell[72028, 1788, 269, 9, 19, "Reference"],
-Cell[72300, 1799, 286, 9, 19, "Reference"],
-Cell[72589, 1810, 199, 8, 19, "Reference"],
-Cell[72791, 1820, 219, 8, 19, "Reference"],
-Cell[73013, 1830, 236, 8, 19, "Reference"],
-Cell[73252, 1840, 330, 7, 19, "Reference"],
-Cell[73585, 1849, 367, 7, 19, "Reference"],
-Cell[73955, 1858, 367, 7, 19, "Reference"],
-Cell[74325, 1867, 192, 4, 19, "Reference"],
-Cell[74520, 1873, 161, 3, 19, "Reference"]
+Cell[78446, 1896, 432, 14, 34, "Subsection"],
+Cell[78881, 1912, 260, 4, 23, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[79178, 1921, 510, 15, 34, "Subsection"],
+Cell[79691, 1938, 378, 5, 23, "Text"],
+Cell[80072, 1945, 380, 5, 23, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[80501, 1956, 430, 14, 57, "Section"],
+Cell[80934, 1972, 86, 1, 23, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81057, 1978, 60, 0, 279, "ExerciseSection"],
+Cell[CellGroupData[{
+Cell[81142, 1982, 55, 0, 19, "Item1Exercise"],
+Cell[CellGroupData[{
+Cell[81222, 1986, 55, 0, 18, "Item2Exercise"],
+Cell[81280, 1988, 195, 6, 43, "ExerciseEquationNumbered"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81536, 2001, 77, 1, 146, "AppendixSectionNumber"],
+Cell[CellGroupData[{
+Cell[81638, 2006, 52, 0, 130, "AppendixSection"],
+Cell[CellGroupData[{
+Cell[81715, 2010, 45, 0, 23, "Appendix"],
+Cell[81763, 2012, 187, 6, 43, "AppendixEquation"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[82011, 2025, 54, 0, 279, "ReferenceSection"],
+Cell[CellGroupData[{
+Cell[82090, 2029, 249, 9, 19, "Reference"],
+Cell[82342, 2040, 269, 9, 19, "Reference"],
+Cell[82614, 2051, 286, 9, 19, "Reference"],
+Cell[82903, 2062, 199, 8, 19, "Reference"],
+Cell[83105, 2072, 219, 8, 19, "Reference"],
+Cell[83327, 2082, 236, 8, 19, "Reference"],
+Cell[83566, 2092, 330, 7, 36, "Reference"],
+Cell[83899, 2101, 367, 7, 36, "Reference"],
+Cell[84269, 2110, 367, 7, 36, "Reference"],
+Cell[84639, 2119, 192, 4, 19, "Reference"],
+Cell[84834, 2125, 161, 3, 19, "Reference"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
